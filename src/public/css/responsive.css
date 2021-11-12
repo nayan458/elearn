@@ -54,7 +54,7 @@ html{
 /* ************************************************* */
 @media (max-width:625px) {
     body{
-        background: url(../aigirl.png) fixed;
+        background: url(../img/aigirl.png) fixed;
     }
     #main_02{
         display: none ;
