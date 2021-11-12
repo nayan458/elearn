@@ -18,7 +18,7 @@ html{
     font-size: 62.5%;
     width: 62.5%;
     height: 62.5%;
-    transition: 2s ease-in-out;
+    /* transition: 2s ease-in-out; */
     scroll-behavior: smooth;
 }
 @media (max-width:998px) { html{
@@ -67,10 +67,10 @@ html{
 }
 @media (max-width:413px) {
     #e_learn_banner{
-        height: 10rem;
+        height: 12rem;
     }
     #main_outer{
-        margin-top: 12rem;
+        margin-top: 14rem;
     }
 }
 @media (max-width:293px) {
@@ -117,4 +117,9 @@ html{
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+  @media (max-width:200) {
+        html{
+            font-size: 25%;
+        }
   }
