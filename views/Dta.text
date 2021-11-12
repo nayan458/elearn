@@ -1,0 +1,10 @@
+<div id="main_01_signIn">
+                    <form id="main_01_signIn_frm" onSubmit=event.preventDefault()>
+                        <p>Sign In</p>
+                        <label class="lble" for="type_1" aria-placeholder="Username">Username</label>
+                            <input id="type_1" type="text" placeholder="username" autocomplete="off" required name="username" value="">
+                        <label class="lble" for="type_2" aria-placeholder="password">Password</label>
+                            <input id="type_2" type="password" placeholder="password" autocomplete="off" required name="password" value="">
+                        <button id="main_01_SignIn_btnn" type="submit">Sign In <i id="arow_btnn" class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
