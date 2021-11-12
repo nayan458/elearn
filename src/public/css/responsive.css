@@ -12,7 +12,7 @@
     margin: 0%;
     padding: 0%;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 html{
     font-size: 62.5%;
@@ -70,7 +70,7 @@ html{
         min-height: 12rem;
     }
     #main_outer{
-        margin-top: 14rem;
+        margin-top: 16rem;
     }
 }
 @media (max-width:293px) {
@@ -98,25 +98,6 @@ html{
     animation: ripple-2 2s infinite ease-in-out;
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
-  }
-
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
   }
   @media (max-width:200) {
         html{
