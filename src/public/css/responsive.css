@@ -67,7 +67,7 @@ html{
 }
 @media (max-width:413px) {
     #e_learn_banner{
-        height: 12rem;
+        min-height: 12rem;
     }
     #main_outer{
         margin-top: 14rem;
