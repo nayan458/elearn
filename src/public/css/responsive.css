@@ -12,13 +12,13 @@
     margin: 0%;
     padding: 0%;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 html{
     font-size: 62.5%;
     width: 62.5%;
     height: 62.5%;
-    /* transition: 2s ease-in-out; */
+    transition: 2s ease-in-out;
     scroll-behavior: smooth;
 }
 @media (max-width:998px) { html{
@@ -52,25 +52,37 @@ html{
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@600&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Kaushan+Script&family=Lato:wght@100&family=Montserrat:wght@600&family=Roboto+Mono:wght@300&display=swap');
 /* ************************************************* */
-@media (max-width:625px) {
-    body{
-        background: url(../img/aigirl.png) fixed;
-    }
-    #main_02{
-        display: none ;
-    }
+@media (max-width:745px) {
+    /* body{
+        background: url(../aigirl.png) fixed;
+    } */
     #main{
         border-radius: 0px 12px 0px 12px;
         background: linear-gradient(120deg,var(--glas_50),rgba(255, 255, 255, 0));
         box-shadow: -4px 0px 20px rgba(0, 0, 0, 0.836);
+        flex-direction: column;
+        height: 120vh;
     }
+                #main_01{
+                    flex: 1;
+                    height: 700px;
+                }
+                #main_02{
+                     flex: 2;
+                    display: flex ;
+                }
+                        #main_02 #main_02_sub{
+                            background: url(../img/aigirl.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
 }
 @media (max-width:413px) {
     #e_learn_banner{
-        min-height: 12rem;
+        height: 10rem;
     }
     #main_outer{
-        margin-top: 16rem;
+        margin-top: 12rem;
     }
 }
 @media (max-width:293px) {
@@ -99,8 +111,22 @@ html{
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
   }
-  @media (max-width:200) {
-        html{
-            font-size: 25%;
-        }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
