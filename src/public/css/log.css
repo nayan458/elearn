@@ -1,0 +1,361 @@
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+body{
+    background: #ccc;
+}
+#sec_02{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background:rgba(204, 204, 204, 0);
+    padding-top: 120vh;
+    /* position: absolute; */
+}
+        #sec_02_inner{
+            width: 90vw;
+            height: 100vh;
+            border-radius:13px;
+            box-sizing: border-box;
+            box-shadow: 4px 4px 4px #ccc;
+            background:#fff;
+            position: absolute;
+        }
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+#banner{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background:rgba(121, 119, 119, 0.527);
+    top: 0;
+}
+#nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+        .item{
+            font-size: 20px;
+            color: #fff;
+        }
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+ #head{
+    width: 100vw;
+    height: 85vh;
+    background:url(../img/drkq.jpg) ;
+    /* background: url(https://thumbs.dreamstime.com/z/girl-dark-background-mixed-media-profile-dreaming-kid-against-night-city-85699546.jpg); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        #head_cont{
+            color: #fff;
+            width: 60vw;
+            font-size:3rem ;
+        }
+#sec_01{
+    position: absolute;
+}
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+#e_learn_banner{
+width: 100vw;
+height: 8rem;
+background: var(--gradient_blue);
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+top: 0;
+}
+            #e_learn_banner #e_ban{
+                width: 90vw;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                
+            }
+#e_learn_banner img{
+height: 6.5rem;
+}
+
+
+
+/* #e_ban_01{
+} */
+#e_ban_02{
+flex: 1;
+padding-left: 4rem;   
+color: var(--white);        
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+text-shadow: 0px 4px 4px rgba(0, 0, 0);
+-webkit-text-stroke: .05px #000;
+}
+        #e_ban_02 #div{
+            background: var(--glas);
+            width: 100%;
+            height: 2px;
+            stroke-width: 2 var(--white_20);
+        }
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+/* ************************************************************************************************************************************************************************** */
+
+#main_02{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+        #main_02 #main_02_sub{
+            position: relative;
+            width: 95%;
+            height: 95%;
+            background: url(../img/aigirl.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius:5px 12px 12px 5px ;
+        }
+                #main_02_sub_01{
+                    position: relative;
+                    background: linear-gradient(120deg,rgba(0, 0, 0, 0.217),rgba(0, 0, 0, 0.109));
+                    width: 100%;
+                    height: 100%;
+                }
+
+#main_01_signIn{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main_01_signIn input{
+    width: 70%;
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 7px 7px 0px 0px;
+    outline: none;
+    border: none;
+    background: var(--white);
+    /* background: black; */
+    /* color: #fff; */
+    border-bottom:2px solid black ;
+}
+
+#main_01_SignIn_btnn{
+    
+    font-size: 3rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 25px 5px 25px;
+    background: var(--gradient_blue);
+    background: #9c27b0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-shadow: 0px 4px 20px var(--white); */
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+#main_01_SignIn_btnn:hover {
+    outline: none;
+    border: none;
+    box-shadow: 4px -2px 20px #000;
+}
+
+#main_01_signIn_frm{
+    width: 90%;
+    height: 80%;
+    color: var(--white);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* text-shadow: 0px 4px 4px var(--black); */
+}
+#main_01_signIn_frm > :nth-child(1){
+    /* color: var(--white); */
+
+    
+    color: var(--blue);
+    font-size: 5rem;
+}
+
+
+/* **********
+* */
+.lble{
+    font-size: 3rem;
+    color: var(--white);
+}
+:root{
+    --white:#ffffff;
+    --blue:#3B117B;
+    --black:#000000;
+    --parple:#9716E5;
+    --glas_50:#c4c4c49c;
+    --glas:#CCCCCC;
+    --white_20:#FFFFFF;
+    --gradient_blue:linear-gradient(90deg,var(--blue),var(--parple));
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+html{
+    font-size: 62.5%;
+    width: 62.5%;
+    height: 62.5%;
+    /* transition: 2s ease-in-out; */
+    scroll-behavior: smooth;
+}
+@media (max-width:998px) { html{
+    font-size: 55%;
+    width: 55%;
+    height: 55%;
+    }
+    
+    }
+@media (max-width:836px) {html{
+    font-size: 45%;
+    width: 45%;
+    height: 45%;
+    }
+    
+    }
+@media (max-width:768px) { html{
+    font-size: 45%;
+    
+    }}
+@media (max-width:280px) {
+    html{
+    font-size: 30%;
+    width: 30%;
+    height: 30%;
+    }}
+
+/* ************************************************* */
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@600&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@600&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Kaushan+Script&family=Lato:wght@100&family=Montserrat:wght@600&family=Roboto+Mono:wght@300&display=swap');
+/* ************************************************* */
+@media (max-width:745px) {
+    /* body{
+        background: url(../aigirl.png) fixed;
+    } */
+    #e_learn_banner{
+        height: 12rem;
+    }
+    #main_outer{
+        margin-top: 14rem;
+    }
+    #main{
+        border-radius: 0px 12px 0px 12px;
+        background: linear-gradient(120deg,var(--glas_50),rgba(255, 255, 255, 0));
+        box-shadow: -4px 0px 20px rgba(0, 0, 0, 0.836);
+        flex-direction: column;
+        height: 120vh;
+    }
+                #main_01{
+                    flex: 1;
+                    height: 700px;
+                }
+                #main_02{
+                     flex: 2;
+                    display: flex ;
+                }
+                        #main_02 #main_02_sub{
+                            background: url(../img/aigirl.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+}
+@media (max-width:413px) {
+    #e_learn_banner{
+        height: 12rem;
+    }
+    #main_outer{
+        margin-top: 14rem;
+    }
+}
+@media (max-width:293px) {
+    html{font-size: 40%;   }
+}
+@media (max-width:260px) {
+    html{font-size: 30%;}
+}
+
+#trioBtnn::after{
+    width: 100%;
+    height: 100%;
+    border-color: rgba(12, 218, 144, 0.6);
+    -webkit-animation: ripple-2 2s infinite ease-in-out;
+    animation: ripple-2 2s infinite ease-in-out;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+
+  .video-btn-icon::after {
+    width: 100%;
+    height: 100%;
+    border-color: rgba(12, 218, 144, 0.6);
+    -webkit-animation: ripple-2 2s infinite ease-in-out;
+    animation: ripple-2 2s infinite ease-in-out;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

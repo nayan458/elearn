@@ -24,4 +24,8 @@ app.get('/dta',(req,res)=>{
     res.send(dta);
 })
 
+app.get('/login',(req,res)=>{
+    res.render('loin')
+})
+
 app.listen(port,()=>console.log(`app is listening at port ${port}`));
